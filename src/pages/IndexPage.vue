@@ -7,15 +7,15 @@
         </h1>
         <form method="post" action="">
             <div>
-                <label for="email">
-                    Email
+                <label for="user">
+                  User
                 </label>
-                <input type="email" name="email" placeholder="Digite seu E-mail">
+                <input type="user" name="user" placeholder="Digite seu Login">
 
             </div>
             <div>
                 <label for="password">
-                    Senha
+                   Senha
                 </label>
                 <input type="password" name="password" placeholder="Digite sua senha">
             </div>
