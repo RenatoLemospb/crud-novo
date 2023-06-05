@@ -1,5 +1,35 @@
 <template>
   <q-page class="flex flex-center">
+    <body>
+    <div class="container">
+        <h1>
+            Login
+        </h1>
+        <form method="post" action="">
+            <div>
+                <label for="email">
+                    Email
+                </label>
+                <input type="email" name="email" placeholder="Digite seu E-mail">
+
+            </div>
+            <div>
+                <label for="password">
+                    Senha
+                </label>
+                <input type="password" name="password" placeholder="Digite sua senha">
+            </div>
+            <div>
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+
     <!-- <img
       alt="Quasar logo"
       src="~assets/quasar-logo-vertical.svg"

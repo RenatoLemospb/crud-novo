@@ -2,20 +2,16 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-btn
+
+         <!-- <q-btn
           flat
           dense
           round
           icon="menu"
           aria-label="Menu"
           @click="toggleLeftDrawer"
-        />
+        /> -->
 
-        <q-toolbar-title>
-          Login
-        </q-toolbar-title>
-
-        <div>Next v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
     <q-page-container>
