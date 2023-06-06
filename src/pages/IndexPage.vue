@@ -10,17 +10,12 @@
              type="user"
              name="user"
              placeholder="Digite seu Login"/>
-          </div>
-          <div>
-            <label class="password" for>Senha </label>
-            <input
+              <label class="password" for>Senha </label>
+              <input
               type="password"
               name="password"
-              placeholder="Digite sua senha"
-            />
-          </div>
-          <div>
-            <button type="submit">Enviar</button>
+              placeholder="Digite sua senha"/>
+             <button type="submit">Enviar</button>
           </div>
         </form>
       </div>
